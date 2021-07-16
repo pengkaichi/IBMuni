@@ -1247,3 +1247,11 @@ responsive
     margin-left: 130px;
   }
 }
+
+.blur {
+  filter: blur(20px);			
+  -webkit-filter: blur(20px);  /* chrome, opera */			
+  -ms-filter: blur(20px);						
+  -moz-filter: blur(20px);
+        
+  }
