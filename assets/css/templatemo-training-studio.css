@@ -1263,3 +1263,19 @@ responsive
 
 .over {position: fixed; left:0; top:0; width:100%; z-index:100;}
 .tempContainer {position:fixed; width:100%; margin-right:0px; margin-left:0px; text-align:center; z-index:101;}
+
+.imgPreview { display: none; top: 0; left: 0; width: 100%; height: 100%; position: fixed; background: rgba(0, 0, 0, 0.5); }
+
+.large{
+        width: 500px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    #img img{
+        width: 100%;
+        transition:all 2s;
+    }
+    img:hover{
+        cursor: crosshair;
+        transform: scale(1.9);  
+    }
