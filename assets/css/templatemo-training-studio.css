@@ -1267,13 +1267,13 @@ responsive
 .imgPreview { display: none; top: 0; left: 0; width: 100%; height: 100%; position: fixed; background: rgba(0, 0, 0, 0.5); }
 
 .large{
-        width: 500px;
+        width: 400px;
         overflow: hidden;
         margin: 0 auto;
     }
     #img img{
         width: 100%;
-        transition:all 2s;
+        transition:all 5s;
     }
     img:hover{
         cursor: crosshair;
