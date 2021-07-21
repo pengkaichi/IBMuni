@@ -54,7 +54,26 @@ https://templatemo.com/tm-548-training-studio
               <div class="col-lg-8">
                 <section class='tabs-content'>
                   <article id='tabs-1'>                    
-                    <img src="assets/images/AI.png" class="img">
+                    <style>
+                      img{
+                          width: 500px;
+                          overflow: hidden;
+                          margin: 0 auto;
+                      }
+                      #img img{
+                          width: 100%;
+                          transition:all 2s;/*图片放大过程的时间*/
+                          position: relative;
+                      }
+                      img:hover{
+                          cursor: crosshair;
+                          transform: scale(1.9);  /*以y轴为中心旋转*/
+                      }
+                  </style>
+                  <body>
+                  <div id="img">
+                  <img src="assets/images/AI.png".jpg" alt=""><!--放图片-->
+                  </div>
 
                     <div class="imgPreview"> <img src="#" alt="" id="imgPreview">
                     <h4> Chart showing number of tweets - AI</h4>
